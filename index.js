@@ -6,4 +6,8 @@ function isOdd(number) {
 	return number %2 !== 0;
 }
 
-module.exports = { isEven, isOdd };
+function isZero(number) {
+	return number === 0;
+}
+
+module.exports = { isEven, isOdd, isZero };
