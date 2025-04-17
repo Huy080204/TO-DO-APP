@@ -2,4 +2,8 @@ function isEven(number) {
 	return number % 2 === 0;
 }
 
-module.exports = { isEven };
+function isOdd(number) {
+	// TO DO
+}
+
+module.exports = { isEven, isOdd };
