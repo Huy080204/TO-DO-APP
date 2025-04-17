@@ -3,7 +3,7 @@ function isEven(number) {
 }
 
 function isOdd(number) {
-	return number % 2 !==0;
+	// TO DO
 }
 
 module.exports = { isEven, isOdd };
